@@ -30,28 +30,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6110F2B01C8B8179005906C7 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
-		6110F2B21C8B8956005906C7 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
-		6110F2B61C8B8970005906C7 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
-		615AE0F31C6C3503007FEC88 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6110F2B01C8B8179005906C7 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoViewController.swift; path = facebookChallenge/PhotoViewController.swift; sourceTree = "<group>"; };
+		6110F2B21C8B8956005906C7 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = facebookChallenge/FadeTransition.swift; sourceTree = "<group>"; };
+		6110F2B61C8B8970005906C7 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseTransition.swift; path = facebookChallenge/BaseTransition.swift; sourceTree = "<group>"; };
+		615AE0F31C6C3503007FEC88 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = facebookChallenge/LoginViewController.swift; sourceTree = "<group>"; };
 		619CD8CB1C61DE22002DF13A /* facebookChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facebookChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		619CD8CE1C61DE22002DF13A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		619CD8D01C61DE22002DF13A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		619CD8CE1C61DE22002DF13A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = facebookChallenge/AppDelegate.swift; sourceTree = "<group>"; };
+		619CD8D01C61DE22002DF13A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = facebookChallenge/ViewController.swift; sourceTree = "<group>"; };
 		619CD8D31C61DE22002DF13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		619CD8D51C61DE22002DF13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		619CD8D51C61DE22002DF13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = facebookChallenge/Assets.xcassets; sourceTree = "<group>"; };
 		619CD8D81C61DE22002DF13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		619CD8DA1C61DE22002DF13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		619CD8E01C61E4A0002DF13A /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
-		619CD8E21C61E4A8002DF13A /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
-		619CD8E41C61E4B1002DF13A /* MessengerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessengerViewController.swift; sourceTree = "<group>"; };
-		619CD8E61C61E4C1002DF13A /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
-		619CD8E81C61E4CE002DF13A /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
-		619CD8EA1C61F08D002DF13A /* ThrillistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrillistViewController.swift; sourceTree = "<group>"; };
-		619CD8EC1C61F696002DF13A /* CreateStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateStatusViewController.swift; sourceTree = "<group>"; };
-		619CD8EE1C61F6A3002DF13A /* CreatePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePhotoViewController.swift; sourceTree = "<group>"; };
-		619CD8F01C61F6AE002DF13A /* CreateCheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCheckInViewController.swift; sourceTree = "<group>"; };
-		61ABFFFE1C8AA1D8005D7AFE /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
-		61D1040C1C8BB83C009FC38A /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
+		619CD8DA1C61DE22002DF13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = facebookChallenge/Info.plist; sourceTree = "<group>"; };
+		619CD8E01C61E4A0002DF13A /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsFeedViewController.swift; path = facebookChallenge/NewsFeedViewController.swift; sourceTree = "<group>"; };
+		619CD8E21C61E4A8002DF13A /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestsViewController.swift; path = facebookChallenge/RequestsViewController.swift; sourceTree = "<group>"; };
+		619CD8E41C61E4B1002DF13A /* MessengerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessengerViewController.swift; path = facebookChallenge/MessengerViewController.swift; sourceTree = "<group>"; };
+		619CD8E61C61E4C1002DF13A /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationsViewController.swift; path = facebookChallenge/NotificationsViewController.swift; sourceTree = "<group>"; };
+		619CD8E81C61E4CE002DF13A /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoreViewController.swift; path = facebookChallenge/MoreViewController.swift; sourceTree = "<group>"; };
+		619CD8EA1C61F08D002DF13A /* ThrillistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThrillistViewController.swift; path = facebookChallenge/ThrillistViewController.swift; sourceTree = "<group>"; };
+		619CD8EC1C61F696002DF13A /* CreateStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateStatusViewController.swift; path = facebookChallenge/CreateStatusViewController.swift; sourceTree = "<group>"; };
+		619CD8EE1C61F6A3002DF13A /* CreatePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreatePhotoViewController.swift; path = facebookChallenge/CreatePhotoViewController.swift; sourceTree = "<group>"; };
+		619CD8F01C61F6AE002DF13A /* CreateCheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateCheckInViewController.swift; path = facebookChallenge/CreateCheckInViewController.swift; sourceTree = "<group>"; };
+		61ABFFFE1C8AA1D8005D7AFE /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = facebookChallenge/Common.swift; sourceTree = "<group>"; };
+		61D1040C1C8BB83C009FC38A /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = facebookChallenge/ImageTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +66,6 @@
 
 /* Begin PBXGroup section */
 		619CD8C21C61DE22002DF13A = {
-			isa = PBXGroup;
-			children = (
-				619CD8CD1C61DE22002DF13A /* facebookChallenge */,
-				619CD8CC1C61DE22002DF13A /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		619CD8CC1C61DE22002DF13A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				619CD8CB1C61DE22002DF13A /* facebookChallenge.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		619CD8CD1C61DE22002DF13A /* facebookChallenge */ = {
 			isa = PBXGroup;
 			children = (
 				619CD8CE1C61DE22002DF13A /* AppDelegate.swift */,
@@ -105,8 +89,16 @@
 				61ABFFFE1C8AA1D8005D7AFE /* Common.swift */,
 				6110F2B61C8B8970005906C7 /* BaseTransition.swift */,
 				6110F2B21C8B8956005906C7 /* FadeTransition.swift */,
+				619CD8CC1C61DE22002DF13A /* Products */,
 			);
-			path = facebookChallenge;
+			sourceTree = "<group>";
+		};
+		619CD8CC1C61DE22002DF13A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				619CD8CB1C61DE22002DF13A /* facebookChallenge.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +201,7 @@
 				619CD8D31C61DE22002DF13A /* Base */,
 			);
 			name = Main.storyboard;
+			path = facebookChallenge;
 			sourceTree = "<group>";
 		};
 		619CD8D71C61DE22002DF13A /* LaunchScreen.storyboard */ = {
@@ -217,6 +210,7 @@
 				619CD8D81C61DE22002DF13A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = facebookChallenge;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
