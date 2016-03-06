@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6110F2B11C8B8179005906C7 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6110F2B01C8B8179005906C7 /* PhotoViewController.swift */; };
+		6110F2B41C8B8956005906C7 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6110F2B21C8B8956005906C7 /* FadeTransition.swift */; };
+		6110F2B71C8B8970005906C7 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6110F2B61C8B8970005906C7 /* BaseTransition.swift */; };
+		615AE0F41C6C3503007FEC88 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615AE0F31C6C3503007FEC88 /* LoginViewController.swift */; };
 		619CD8CF1C61DE22002DF13A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CD8CE1C61DE22002DF13A /* AppDelegate.swift */; };
 		619CD8D11C61DE22002DF13A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CD8D01C61DE22002DF13A /* ViewController.swift */; };
 		619CD8D41C61DE22002DF13A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619CD8D21C61DE22002DF13A /* Main.storyboard */; };
 		619CD8D61C61DE22002DF13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619CD8D51C61DE22002DF13A /* Assets.xcassets */; };
 		619CD8D91C61DE22002DF13A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619CD8D71C61DE22002DF13A /* LaunchScreen.storyboard */; };
+		619CD8E11C61E4A0002DF13A /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CD8E01C61E4A0002DF13A /* NewsFeedViewController.swift */; };
+		619CD8E31C61E4A8002DF13A /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CD8E21C61E4A8002DF13A /* RequestsViewController.swift */; };
+		619CD8E51C61E4B1002DF13A /* MessengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CD8E41C61E4B1002DF13A /* MessengerViewController.swift */; };
+		619CD8E71C61E4C1002DF13A /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CD8E61C61E4C1002DF13A /* NotificationsViewController.swift */; };
+		619CD8E91C61E4CE002DF13A /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CD8E81C61E4CE002DF13A /* MoreViewController.swift */; };
+		619CD8EB1C61F08D002DF13A /* ThrillistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CD8EA1C61F08D002DF13A /* ThrillistViewController.swift */; };
+		619CD8ED1C61F696002DF13A /* CreateStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CD8EC1C61F696002DF13A /* CreateStatusViewController.swift */; };
+		619CD8EF1C61F6A3002DF13A /* CreatePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CD8EE1C61F6A3002DF13A /* CreatePhotoViewController.swift */; };
+		619CD8F11C61F6AE002DF13A /* CreateCheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CD8F01C61F6AE002DF13A /* CreateCheckInViewController.swift */; };
+		61ABFFFF1C8AA1D8005D7AFE /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ABFFFE1C8AA1D8005D7AFE /* Common.swift */; };
+		61D1040D1C8BB83C009FC38A /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D1040C1C8BB83C009FC38A /* ImageTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6110F2B01C8B8179005906C7 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		6110F2B21C8B8956005906C7 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		6110F2B61C8B8970005906C7 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		615AE0F31C6C3503007FEC88 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		619CD8CB1C61DE22002DF13A /* facebookChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facebookChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		619CD8CE1C61DE22002DF13A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		619CD8D01C61DE22002DF13A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +41,17 @@
 		619CD8D51C61DE22002DF13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		619CD8D81C61DE22002DF13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		619CD8DA1C61DE22002DF13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619CD8E01C61E4A0002DF13A /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		619CD8E21C61E4A8002DF13A /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		619CD8E41C61E4B1002DF13A /* MessengerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessengerViewController.swift; sourceTree = "<group>"; };
+		619CD8E61C61E4C1002DF13A /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		619CD8E81C61E4CE002DF13A /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		619CD8EA1C61F08D002DF13A /* ThrillistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrillistViewController.swift; sourceTree = "<group>"; };
+		619CD8EC1C61F696002DF13A /* CreateStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateStatusViewController.swift; sourceTree = "<group>"; };
+		619CD8EE1C61F6A3002DF13A /* CreatePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePhotoViewController.swift; sourceTree = "<group>"; };
+		619CD8F01C61F6AE002DF13A /* CreateCheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCheckInViewController.swift; sourceTree = "<group>"; };
+		61ABFFFE1C8AA1D8005D7AFE /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		61D1040C1C8BB83C009FC38A /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +87,24 @@
 				619CD8CE1C61DE22002DF13A /* AppDelegate.swift */,
 				619CD8D01C61DE22002DF13A /* ViewController.swift */,
 				619CD8D21C61DE22002DF13A /* Main.storyboard */,
+				619CD8E01C61E4A0002DF13A /* NewsFeedViewController.swift */,
+				6110F2B01C8B8179005906C7 /* PhotoViewController.swift */,
+				615AE0F31C6C3503007FEC88 /* LoginViewController.swift */,
+				619CD8EC1C61F696002DF13A /* CreateStatusViewController.swift */,
+				619CD8EE1C61F6A3002DF13A /* CreatePhotoViewController.swift */,
+				619CD8F01C61F6AE002DF13A /* CreateCheckInViewController.swift */,
+				619CD8EA1C61F08D002DF13A /* ThrillistViewController.swift */,
+				619CD8E61C61E4C1002DF13A /* NotificationsViewController.swift */,
+				619CD8E81C61E4CE002DF13A /* MoreViewController.swift */,
+				619CD8E21C61E4A8002DF13A /* RequestsViewController.swift */,
+				619CD8E41C61E4B1002DF13A /* MessengerViewController.swift */,
 				619CD8D51C61DE22002DF13A /* Assets.xcassets */,
 				619CD8D71C61DE22002DF13A /* LaunchScreen.storyboard */,
 				619CD8DA1C61DE22002DF13A /* Info.plist */,
+				61D1040C1C8BB83C009FC38A /* ImageTransition.swift */,
+				61ABFFFE1C8AA1D8005D7AFE /* Common.swift */,
+				6110F2B61C8B8970005906C7 /* BaseTransition.swift */,
+				6110F2B21C8B8956005906C7 /* FadeTransition.swift */,
 			);
 			path = facebookChallenge;
 			sourceTree = "<group>";
@@ -135,8 +180,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619CD8E91C61E4CE002DF13A /* MoreViewController.swift in Sources */,
+				6110F2B41C8B8956005906C7 /* FadeTransition.swift in Sources */,
 				619CD8D11C61DE22002DF13A /* ViewController.swift in Sources */,
+				61ABFFFF1C8AA1D8005D7AFE /* Common.swift in Sources */,
+				619CD8F11C61F6AE002DF13A /* CreateCheckInViewController.swift in Sources */,
+				6110F2B71C8B8970005906C7 /* BaseTransition.swift in Sources */,
 				619CD8CF1C61DE22002DF13A /* AppDelegate.swift in Sources */,
+				619CD8E31C61E4A8002DF13A /* RequestsViewController.swift in Sources */,
+				619CD8E71C61E4C1002DF13A /* NotificationsViewController.swift in Sources */,
+				619CD8ED1C61F696002DF13A /* CreateStatusViewController.swift in Sources */,
+				619CD8E11C61E4A0002DF13A /* NewsFeedViewController.swift in Sources */,
+				619CD8EF1C61F6A3002DF13A /* CreatePhotoViewController.swift in Sources */,
+				619CD8EB1C61F08D002DF13A /* ThrillistViewController.swift in Sources */,
+				6110F2B11C8B8179005906C7 /* PhotoViewController.swift in Sources */,
+				615AE0F41C6C3503007FEC88 /* LoginViewController.swift in Sources */,
+				619CD8E51C61E4B1002DF13A /* MessengerViewController.swift in Sources */,
+				61D1040D1C8BB83C009FC38A /* ImageTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +344,7 @@
 				619CD8DF1C61DE22002DF13A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
